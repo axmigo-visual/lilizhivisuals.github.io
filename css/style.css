@@ -1,2 +1,640 @@
+/* =====================
+   AXMIGO VISUALS
+   Main Style
+===================== */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+html{
+    scroll-behavior:smooth;
+}
+
+
 body{
+
+    font-family:
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+
+    background:#fff;
+
+    color:#111;
+
+}
+
+
+/* =====================
+ Navigation
+===================== */
+
+
+.navbar{
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    padding:30px 6%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    z-index:10;
+
+}
+
+
+.logo a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:30px;
+
+    letter-spacing:4px;
+
+    font-weight:700;
+
+}
+
+
+
+.navbar ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:40px;
+
+}
+
+
+
+.navbar a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:14px;
+
+    letter-spacing:1px;
+
+    transition:.3s;
+
+}
+
+
+.navbar a:hover{
+
+    opacity:.6;
+
+}
+
+
+
+/* =====================
+ Hero
+===================== */
+
+
+.hero{
+
+    height:100vh;
+
+    position:relative;
+
+    overflow:hidden;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+.slider{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+}
+
+
+
+.slide{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    opacity:0;
+
+    transition:opacity 1.5s ease;
+
+}
+
+
+
+.slide.active{
+
+    opacity:1;
+
+}
+
+
+
+.overlay{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+    background:
+
+    linear-gradient(
+
+    rgba(0,0,0,.35),
+
+    rgba(0,0,0,.65)
+
+    );
+
+}
+
+
+
+/* hero text */
+
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+
+
+.brand{
+
+    font-size:20px;
+
+    letter-spacing:8px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.hero h1{
+
+    font-size:90px;
+
+    letter-spacing:8px;
+
+    font-weight:700;
+
+}
+
+
+
+.hero h2{
+
+    font-size:26px;
+
+    font-weight:300;
+
+    margin:20px 0;
+
+}
+
+
+
+.hero p{
+
+    font-size:18px;
+
+    opacity:.85;
+
+}
+
+
+
+/* buttons */
+
+
+.hero-buttons{
+
+    margin-top:45px;
+
+}
+
+
+.btn{
+
+    display:inline-block;
+
+    padding:14px 35px;
+
+    margin:10px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+
+
+.btn-light{
+
+    background:white;
+
+    color:black;
+
+}
+
+
+
+.btn-outline{
+
+    border:1px solid white;
+
+    color:white;
+
+}
+
+
+
+.btn:hover{
+
+    transform:translateY(-5px);
+
+}
+
+
+
+
+.scroll-down{
+
+    position:absolute;
+
+    bottom:40px;
+
+    color:white;
+
+    font-size:30px;
+
+    z-index:3;
+
+}
+
+
+
+/* =====================
+ Sections
+===================== */
+
+
+.section-title{
+
+    text-align:center;
+
+    font-size:38px;
+
+    letter-spacing:3px;
+
+    margin-bottom:60px;
+
+}
+
+
+
+.featured{
+
+    padding:100px 6%;
+
+}
+
+
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+
+.card{
+
+    position:relative;
+
+    overflow:hidden;
+
+    text-decoration:none;
+
+    color:white;
+
+    height:450px;
+
+}
+
+
+
+.card img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.6s;
+
+}
+
+
+
+.card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+
+
+.card-content{
+
+    position:absolute;
+
+    bottom:30px;
+
+    left:30px;
+
+}
+
+
+
+.card h3{
+
+    font-size:28px;
+
+}
+
+
+
+/* =====================
+ Gallery
+===================== */
+
+
+.gallery-preview{
+
+    padding:100px 6%;
+
+}
+
+
+
+.gallery{
+
+    display:grid;
+
+    grid-template-columns:
+
+    repeat(3,1fr);
+
+    gap:20px;
+
+}
+
+
+
+.gallery img{
+
+    width:100%;
+
+    height:350px;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+
+
+.gallery img:hover{
+
+    transform:scale(1.04);
+
+}
+
+
+.center{
+
+    text-align:center;
+
+    margin-top:50px;
+
+}
+
+
+.btn-dark{
+
+    border:1px solid black;
+
+    color:black;
+
+}
+
+
+
+/* =====================
+ About
+===================== */
+
+
+.about-preview{
+
+    display:flex;
+
+    gap:80px;
+
+    padding:100px 10%;
+
+    align-items:center;
+
+}
+
+
+
+.about-photo img{
+
+    width:350px;
+
+}
+
+
+
+.about-text{
+
+    max-width:500px;
+
+}
+
+
+
+.about-text h2{
+
+    font-size:45px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+/* =====================
+ Footer
+===================== */
+
+
+footer{
+
+    background:#111;
+
+    color:white;
+
+    text-align:center;
+
+    padding:60px;
+
+}
+
+
+
+.footer-logo{
+
+    font-size:35px;
+
+    letter-spacing:5px;
+
+}
+
+
+
+
+/* =====================
+ Mobile
+===================== */
+
+
+@media(max-width:768px){
+
+
+.navbar{
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+
+.navbar ul{
+
+    gap:15px;
+
+}
+
+
+
+.hero h1{
+
+    font-size:50px;
+
+}
+
+
+.hero h2{
+
+    font-size:20px;
+
+}
+
+
+
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.gallery{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.about-preview{
+
+    flex-direction:column;
+
+}
+
+
+
+.about-photo img{
+
+    width:100%;
+
+}
+
+
 }
