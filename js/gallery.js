@@ -38,7 +38,7 @@ items.forEach(item=>{
 if(filter==="all" || item.classList.contains(filter)){
 
 
-item.style.display="block";
+item.style.display="";
 
 
 }else{
