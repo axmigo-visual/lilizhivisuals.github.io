@@ -318,7 +318,43 @@ body{
 
 }
 
+.hero-left{
 
+    flex:1;
+
+}
+
+.hero-right{
+
+    flex:1;
+
+    text-align:right;
+
+}
+
+.hero-buttons{
+
+    margin-top:30px;
+
+}
+
+.hero-right h1{
+
+    font-size:72px;
+
+}
+
+.hero-right h2{
+
+    margin:15px 0;
+
+}
+
+.hero-right p{
+
+    opacity:.9;
+
+}
 
 .brand{
 
