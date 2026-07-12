@@ -34,9 +34,13 @@ body{
 ===================== */
 
 
+/* =====================
+   Global Navigation
+===================== */
+
 .navbar{
 
-    position:absolute;
+    position:fixed;
 
     top:0;
 
@@ -44,7 +48,9 @@ body{
 
     width:100%;
 
-    padding:30px 6%;
+    height:80px;
+
+    padding:0 6%;
 
     display:flex;
 
@@ -52,7 +58,109 @@ body{
 
     align-items:center;
 
-    z-index:10;
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(12px);
+
+    -webkit-backdrop-filter:blur(12px);
+
+    border-bottom:1px solid rgba(0,0,0,.08);
+
+    z-index:999;
+
+}
+
+.logo{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.logo a{
+
+    color:#111;
+
+    text-decoration:none;
+
+    font-size:28px;
+
+    font-weight:700;
+
+    letter-spacing:3px;
+
+}
+
+.logo span{
+
+    font-size:11px;
+
+    letter-spacing:2px;
+
+    color:#888;
+
+    margin-top:4px;
+
+}
+
+.navbar ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:36px;
+
+}
+
+.navbar ul li{
+
+    position:relative;
+
+}
+
+.navbar a{
+
+    text-decoration:none;
+
+    color:#111;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    transition:.25s;
+
+}
+
+.navbar a:hover{
+
+    color:#777;
+
+}
+
+.navbar a.active{
+
+    color:#000;
+
+}
+
+.navbar a.active::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+    width:100%;
+
+    height:2px;
+
+    background:#111;
 
 }
 
