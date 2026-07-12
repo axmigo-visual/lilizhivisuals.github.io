@@ -18,14 +18,13 @@ html{
 
 body{
 
-    font-family:
-    "Helvetica Neue",
-    Arial,
-    sans-serif;
+    font-family:'Inter',sans-serif;
 
     background:#fff;
 
     color:#111;
+
+    line-height:1.7;
 
 }
 
