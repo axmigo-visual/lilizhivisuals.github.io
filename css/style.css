@@ -229,11 +229,6 @@ body{
 
     overflow:hidden;
 
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
 
 }
 
@@ -303,14 +298,23 @@ body{
 
 .hero-content{
 
-    position:relative;
+    position:absolute;
 
-    z-index:2;
+    left:8%;
+
+    right:8%;
+
+    bottom:90px;
+
+    z-index:5;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-end;
 
     color:white;
-
-    text-align:center;
-   padding-top:80px;
 
 }
 
