@@ -937,3 +937,435 @@ footer{
     cursor:pointer;
 
 }
+
+/* =====================================================
+   FILMS PAGE
+   AXMIGO Visuals
+===================================================== */
+
+
+.film-page{
+
+    background:#080808;
+
+    color:white;
+
+}
+
+
+/* Film Hero */
+
+.film-hero{
+
+    padding-top:180px;
+
+    padding-bottom:120px;
+
+    text-align:center;
+
+}
+
+
+.film-label{
+
+    font-size:12px;
+
+    letter-spacing:6px;
+
+    color:#999;
+
+    margin-bottom:35px;
+
+}
+
+
+.film-hero h1{
+
+    font-size:90px;
+
+    letter-spacing:12px;
+
+    font-weight:700;
+
+    margin-bottom:30px;
+
+}
+
+
+.film-intro{
+
+    font-size:28px;
+
+    font-weight:300;
+
+    color:#ddd;
+
+    line-height:1.5;
+
+}
+
+
+/* Featured Film */
+
+
+.featured-film{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:0 40px 120px;
+
+}
+
+
+.film-number{
+
+    font-size:18px;
+
+    letter-spacing:5px;
+
+    color:#777;
+
+    margin-bottom:25px;
+
+}
+
+
+
+/* Poster */
+
+
+.film-poster{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+
+.film-poster img{
+
+    width:100%;
+
+    display:block;
+
+    aspect-ratio:16/9;
+
+    object-fit:cover;
+
+    transition:.8s;
+
+}
+
+
+.film-poster:hover img{
+
+    transform:scale(1.03);
+
+}
+
+
+/* Play Button */
+
+
+.play-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+.play-overlay button{
+
+    width:90px;
+
+    height:90px;
+
+    border-radius:50%;
+
+    border:1px solid rgba(255,255,255,.8);
+
+    background:rgba(0,0,0,.35);
+
+    color:white;
+
+    font-size:30px;
+
+    cursor:pointer;
+
+    backdrop-filter:blur(5px);
+
+    transition:.4s;
+
+}
+
+
+.play-overlay button:hover{
+
+    transform:scale(1.15);
+
+    background:white;
+
+    color:black;
+
+}
+
+
+/* Film Info */
+
+
+.film-info{
+
+    max-width:800px;
+
+    margin:60px auto 0;
+
+}
+
+
+.film-info h2{
+
+    font-size:48px;
+
+    letter-spacing:2px;
+
+    margin-bottom:25px;
+
+}
+
+
+.film-info p{
+
+    color:#ccc;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+
+.film-meta{
+
+    display:flex;
+
+    gap:40px;
+
+    margin-top:35px;
+
+    color:#999;
+
+    font-size:14px;
+
+    letter-spacing:2px;
+
+}
+
+
+
+/* Watch Button */
+
+
+.watch-btn{
+
+    display:inline-block;
+
+    margin-top:50px;
+
+    padding:16px 45px;
+
+    border:1px solid white;
+
+    color:white;
+
+    text-decoration:none;
+
+    letter-spacing:3px;
+
+    transition:.3s;
+
+}
+
+
+.watch-btn:hover{
+
+    background:white;
+
+    color:black;
+
+}
+
+
+
+/* Coming Soon */
+
+
+.coming-soon{
+
+    text-align:center;
+
+    padding:80px 20px 120px;
+
+    border-top:1px solid rgba(255,255,255,.15);
+
+}
+
+
+.coming-soon h3{
+
+    font-size:36px;
+
+    letter-spacing:5px;
+
+}
+
+
+.coming-soon p{
+
+    margin-top:20px;
+
+    color:#888;
+
+}
+
+
+
+/* Video Modal */
+
+
+.video-modal{
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.95);
+
+    display:none;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:9999;
+
+}
+
+
+.video-container{
+
+    width:80%;
+
+    max-width:1100px;
+
+    position:relative;
+
+}
+
+
+.video-container iframe{
+
+    width:100%;
+
+    aspect-ratio:16/9;
+
+    border:0;
+
+}
+
+
+
+.close-video{
+
+    position:absolute;
+
+    right:0;
+
+    top:-60px;
+
+    background:none;
+
+    border:none;
+
+    color:white;
+
+    font-size:45px;
+
+    cursor:pointer;
+
+}
+
+
+
+
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+
+.film-hero{
+
+    padding-top:140px;
+
+}
+
+
+.film-hero h1{
+
+    font-size:55px;
+
+}
+
+
+.film-intro{
+
+    font-size:20px;
+
+}
+
+
+.featured-film{
+
+    padding:0 20px 80px;
+
+}
+
+
+.film-info h2{
+
+    font-size:34px;
+
+}
+
+
+.film-meta{
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+
+.video-container{
+
+    width:95%;
+
+}
+
+
+}
+
+
