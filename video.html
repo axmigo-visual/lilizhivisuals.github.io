@@ -1,16 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Films | AXMIGO Visuals</title>
+
+<meta name="description"
+content="Documentary films and visual storytelling by Li Lizhi.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="film-page">
+
+<header class="navbar">
 
 <div class="logo">
 
-    <a href="index.html">
+<a href="index.html">AXMIGO</a>
 
-        AXMIGO
-
-    </a>
-
-    <span>
-
-        VISUAL STORIES
-
-    </span>
+<span>VISUAL STORIES</span>
 
 </div>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="photo.html">Portfolio</a></li>
+
+<li><a href="video.html" class="active">Video</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="film-hero">
+
+<p class="film-label">
+AXMIGO VISUALS
+</p>
+
+<h1>
+FILMS
+</h1>
+
+<p class="film-intro">
+
+Documentary Films &
+Visual Storytelling
+
+</p>
+
+</section>
+
+<section class="featured-film">
+
+<div class="film-number">
+01
+</div>
+
+<div class="film-poster">
+
+<img
+src="images/video/bridge-to-the-future.jpg"
+alt="Bridge to the Future">
+
+<div class="play-overlay">
+
+<button id="playFilm">
+
+▶
+
+</button>
+
+</div>
+
+</div>
+
+<div class="film-info">
+
+<h2>
+
+Bridge to the Future
+
+</h2>
+
+<p>
+
+A documentary exploring Shenzhen's transformation through its people,
+infrastructure and urban landscape.
+
+</p>
+
+<div class="film-meta">
+
+<span>2026</span>
+
+<span>Documentary</span>
+
+<span>Shenzhen</span>
+
+</div>
+
+<a href="#"
+class="watch-btn"
+id="watchButton">
+
+WATCH FILM
+
+</a>
+
+</div>
+
+</section>
+
+<section class="coming-soon">
+
+<h3>
+
+More Films
+
+</h3>
+
+<p>
+
+Coming Soon
+
+</p>
+
+</section>
+
+<footer>
+
+<div class="footer-logo">
+
+AXMIGO
+
+</div>
+
+<p>
+
+Visual Stories from Shenzhen and Beyond
+
+</p>
+
+<p>
+
+© 2026 Li Lizhi. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<div class="video-modal" id="videoModal">
+
+<div class="video-container">
+
+<button class="close-video">
+
+×
+
+</button>
+
+<iframe
+id="youtubePlayer"
+src=""
+allowfullscreen
+allow="autoplay"></iframe>
+
+</div>
+
+</div>
+
+<script src="js/video.js"></script>
+
+</body>
+
+</html>
