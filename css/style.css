@@ -954,51 +954,35 @@ footer{
 
 
 /* Film Hero */
-
 .film-hero{
 
-    padding-top:120px;
+    padding-top:90px;
 
-    padding-bottom:60px;
-
-    text-align:center;
+    padding-bottom:25px;
 
 }
-
 
 .film-label{
 
-    font-size:12px;
-
-    letter-spacing:6px;
-
-    color:#999;
-
-    margin-bottom:35px;
+    display:none;
 
 }
-
 
 .film-hero h1{
 
-    font-size:90px;
+    font-size:46px;
 
-    letter-spacing:12px;
+    letter-spacing:5px;
 
-    font-weight:700;
-
-    margin-bottom:30px;
+    margin-bottom:10px;
 
 }
 
-
 .film-intro{
 
-    font-size:28px;
+    font-size:18px;
 
-    font-weight:300;
-
-    color:#ddd;
+    color:#999;
 
     line-height:1.5;
 
