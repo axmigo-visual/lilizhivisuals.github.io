@@ -1391,4 +1391,80 @@ footer{
 
 }
 
+/* Film List */
 
+.film-list{
+
+max-width:1100px;
+
+margin:0 auto;
+
+padding:80px 40px 140px;
+
+border-top:1px solid rgba(255,255,255,.12);
+
+}
+
+.film-list h3{
+
+font-size:34px;
+
+margin-bottom:60px;
+
+letter-spacing:4px;
+
+}
+
+.film-item{
+
+display:flex;
+
+align-items:center;
+
+gap:40px;
+
+padding:28px 0;
+
+border-bottom:1px solid rgba(255,255,255,.08);
+
+transition:.3s;
+
+cursor:pointer;
+
+}
+
+.film-item:hover{
+
+padding-left:18px;
+
+background:rgba(255,255,255,.03);
+
+}
+
+.film-index{
+
+font-size:28px;
+
+font-weight:600;
+
+color:#888;
+
+min-width:70px;
+
+}
+
+.film-text h4{
+
+font-size:28px;
+
+margin-bottom:10px;
+
+}
+
+.film-text p{
+
+color:#888;
+
+font-size:16px;
+
+}
