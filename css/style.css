@@ -165,55 +165,6 @@ body{
 }
 
 
-.logo a{
-
-    color:white;
-
-    text-decoration:none;
-
-    font-size:30px;
-
-    letter-spacing:4px;
-
-    font-weight:700;
-
-}
-
-
-
-.navbar ul{
-
-    display:flex;
-
-    list-style:none;
-
-    gap:40px;
-
-}
-
-
-
-.navbar a{
-
-    color:white;
-
-    text-decoration:none;
-
-    font-size:14px;
-
-    letter-spacing:1px;
-
-    transition:.3s;
-
-}
-
-
-.navbar a:hover{
-
-    opacity:.6;
-
-}
-
 
 
 /* =====================
@@ -283,9 +234,11 @@ body{
 
     linear-gradient(
 
-    rgba(0,0,0,.35),
+    to bottom,   
 
-    rgba(0,0,0,.65)
+    rgba(0,0,0,.15),
+
+    rgba(0,0,0,.75)
 
     );
 
@@ -338,11 +291,7 @@ body{
 
 }
 
-.hero-right h1{
 
-    font-size:72px;
-
-}
 
 .hero-right h2{
 
@@ -358,11 +307,13 @@ body{
 
 .brand{
 
-    font-size:20px;
+    font-size:56px;
 
-    letter-spacing:8px;
+    letter-spacing:10px;
 
     margin-bottom:30px;
+
+    font-weight:700;
 
 }
 
@@ -370,7 +321,7 @@ body{
 
 .hero h1{
 
-    font-size:90px;
+    font-size:64px;
 
     letter-spacing:8px;
 
@@ -603,7 +554,9 @@ body{
 
     width:100%;
 
-    height:350px;
+    aspect-ratio:4/3;
+
+    height:auto;
 
     object-fit:cover;
 
@@ -661,6 +614,10 @@ body{
 .about-photo img{
 
     width:350px;
+
+   height:450px;
+
+   object-fit:cover;
 
 }
 
