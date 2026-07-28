@@ -1452,3 +1452,233 @@ color:#888;
 font-size:16px;
 
 }
+
+
+/* ==========================================
+   ABOUT PAGE
+========================================== */
+
+.about-hero{
+
+    padding:120px 20px 60px;
+
+    text-align:center;
+
+}
+
+.about-hero h1{
+
+    font-size:46px;
+
+    letter-spacing:6px;
+
+    margin-bottom:12px;
+
+}
+
+.about-hero p{
+
+    font-size:18px;
+
+    color:#888;
+
+}
+
+.portrait-section{
+
+    max-width:700px;
+
+    margin:0 auto;
+
+    padding:0 30px 80px;
+
+}
+
+.portrait-section img{
+
+    width:100%;
+
+    display:block;
+
+    object-fit:cover;
+
+}
+
+.statement{
+
+    max-width:900px;
+
+    margin:0 auto;
+
+    padding:0 30px 100px;
+
+    text-align:center;
+
+}
+
+.statement blockquote{
+
+    font-size:38px;
+
+    line-height:1.45;
+
+    font-weight:300;
+
+    letter-spacing:.5px;
+
+}
+
+.about-content{
+
+    max-width:760px;
+
+    margin:0 auto;
+
+    padding:0 30px 100px;
+
+}
+
+.about-content h2{
+
+    font-size:30px;
+
+    margin-bottom:30px;
+
+}
+
+.about-content p{
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#555;
+
+    margin-bottom:25px;
+
+}
+
+
+.skills{
+
+    max-width:900px;
+
+    margin:0 auto;
+
+    padding:0 30px 100px;
+
+}
+
+.skills h2{
+
+    margin-bottom:40px;
+
+    font-size:30px;
+
+}
+
+.skill-list{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:18px;
+
+}
+
+.skill-list div{
+
+    padding:12px 24px;
+
+    border:1px solid #ddd;
+
+    letter-spacing:1px;
+
+    transition:.3s;
+
+}
+
+.skill-list div:hover{
+
+    background:#111;
+
+    color:white;
+
+}
+
+.contact-info{
+
+    max-width:760px;
+
+    margin:0 auto;
+
+    padding:0 30px 120px;
+
+}
+
+.contact-info h2{
+
+    font-size:30px;
+
+    margin-bottom:40px;
+
+}
+
+.contact-info p{
+
+    margin-bottom:30px;
+
+    line-height:1.8;
+
+}
+
+.contact-info a{
+
+    color:#111;
+
+    text-decoration:none;
+
+}
+
+.contact-info a:hover{
+
+    text-decoration:underline;
+
+}
+
+@media(max-width:768px){
+
+.about-hero{
+
+    padding-top:90px;
+
+}
+
+.statement blockquote{
+
+    font-size:28px;
+
+}
+
+.about-content p{
+
+    font-size:17px;
+
+}
+
+.skill-list{
+
+    flex-direction:column;
+
+}
+
+.skill-list div{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+}
