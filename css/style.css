@@ -1754,3 +1754,93 @@ font-size:16px;
 }
 
 }
+
+
+
+/* ==========================================
+   CONTACT PAGE
+========================================== */
+
+.contact-page{
+
+    max-width:900px;
+
+    margin:0 auto;
+
+    padding:20px 40px 120px;
+
+}
+
+.contact-card{
+
+    border-bottom:1px solid #e5e5e5;
+
+    padding:35px 0;
+
+}
+
+.contact-card h2{
+
+    font-size:30px;
+
+    margin-bottom:15px;
+
+    position:relative;
+
+    display:inline-block;
+
+}
+
+.contact-card h2::after{
+
+    content:"";
+
+    display:block;
+
+    width:45px;
+
+    height:2px;
+
+    background:#111;
+
+    margin-top:10px;
+
+}
+
+.contact-card p{
+
+    margin-top:20px;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#666;
+
+}
+
+.contact-card a{
+
+    color:#111;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.contact-card a:hover{
+
+    opacity:.6;
+
+}
+
+.contact-button{
+
+    margin-top:60px;
+
+    text-align:center;
+
+}
+
+
